@@ -1,3 +1,8 @@
 {
-    "baseUrl": "https://www.baidu.com"
+    "baseUrl": "https://www.baidu.com",
+    "reporter": "junit",
+    "reporterOptions": {
+      "mochaFile": "results/test_report_[hash].xml", 
+      "toConsole": true
+    }
   }
